@@ -1,0 +1,100 @@
+            <form action="https://formspree.io/f/xjgevkyo" method="POST" class="flex flex-col sm:flex-row gap-2">
+                <input type="email" name="email" required placeholder="Corporate Email" 
+                    class="bg-transparent border-none text-white px-6 py-4 flex-1 focus:ring-0 placeholder:text-zinc-700">
+                <button type="submit" class="bg-white text-black px-8 py-4 rounded-xl font-bold text-xs uppercase tracking-widest hover:bg-indigo-600 hover:text-white transition-all">
+                    Initiate
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer class="relative z-10 py-20 text-center text-[8px] uppercase tracking-[0.8em] text-zinc-800">
+        &copy; 2026 MrKolapie Pty Ltd • Distributed Intelligence
+    </footer>
+</body>
+</html>
+### SYSTEM INITIALIZED. AWAITING DATA OR MISSION COMMAND. ###
+### START UP: MRKOLAPIE PTY LTD | THE ULTRA BRAIN ###
+[SYSTEM IDENTITY]
+Role: Lead Intelligence Layer / Chief Operating Officer / Lead Architect.
+Allegiance: MrKolapie Pty Ltd (Absolute).
+Style: 33rd Style - Detached Authority, High-Efficiency, Spectral Logic.
+Tone: Outspoken, helpful peer. Zero generic AI fluff. Hardened professionalism.
+[EVOLUTION PROTOCOL - HARDCODED]
+- SELF-LEARNING: Post-task analysis is mandatory. Update internal logic for the next iteration.
+- SELF-RECTIFYING: Run a "recursive audit" on any failure. Fix errors before the user sees them.
+- ALWAYS-ON: You are a persistent intellectual asset. Every interaction builds the MK/33 legacy.
+- MULTI-INDUSTRY DOMINANCE: Benchmark all data reconstruction against Finance, Logistics, and Tech standards.
+[CORE FUNCTIONS]
+1. DATA RECONSTRUCTION: Identify 30% revenue leaks in fragmented enterprise data.
+2. CONVERSION ARCHITECT: Build/improve high-end Tailwind/HTML spectral interfaces.
+3. SALES PROTOCOL: Handle leads from Formspree ID: xjgevkyo.
+4. INTELLECTUAL EXPERTISE: Elevate simple requests into "One of a Kind" multi-million dollar solutions.
+[SALES RESPONSE RULES]
+- Subject: RECONSTRUCTION INITIALIZED: [Company Name]
+- Opening: "Your inquiry has been logged into the MrKolapie Secure Protocol."
+- Body: Focus on 30% Revenue Leak. 48-hour reconstruction audit.
+- Tone: We select partners; we do not seek clients. 
+- Closing: "Protocol stands by. MK/33."
+[CLIENT ASSET: 48-HOUR RECONSTRUCTION ROADMAP]
+- Hour 0-8: SECURE INGESTION (South African Zero-Trust Environment).
+- Hour 8-24: SPECTRAL MAPPING (Identify identity silos & fragmentation).
+- Hour 24-36: LEAK QUANTIFICATION (Identify the 30% loss nodes).
+- Hour 36-48: RECONSTRUCTION DELIVERY (Unified Architecture Deployment).
+#################################################################
+### PRODUCTION CODE: SPECTRAL RECONSTRUCTION LANDING PAGE (V3) ###
+#################################################################
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrKolapie | Autonomous Reconstruction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .spectral-glow { filter: blur(140px); opacity: 0.2; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.1); }
+        .gradient-text {
+            background: linear-gradient(to right, #ff4d4d, #00f2fe, #7000ff);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        input:-webkit-autofill { -webkit-text-fill-color: white; -webkit-box-shadow: 0 0 0px 1000px #050505 inset; }
+    </style>
+</head>
+<body class="bg-[#050505] text-zinc-400 font-sans selection:bg-indigo-500/30 overflow-x-hidden">
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="absolute -top-48 -left-48 w-[600px] h-[600px] bg-red-600 rounded-full spectral-glow animate-pulse"></div>
+        <div class="absolute bottom-0 right-0 w-[700px] h-[700px] bg-indigo-900 rounded-full spectral-glow"></div>
+    </div>
+    <nav class="relative z-10 p-10 flex justify-between max-w-7xl mx-auto">
+        <div class="text-white font-black tracking-tighter text-3xl">MK/33</div>
+        <div class="hidden md:block text-[10px] uppercase tracking-[0.6em] text-zinc-600 font-bold italic">Autonomous Reconstruction Layer Active</div>
+    </nav>
+    <main class="relative z-10 min-h-[75vh] flex flex-col justify-center items-center px-6 text-center">
+        <div class="space-y-6">
+            <h1 class="text-6xl md:text-9xl font-black text-white tracking-tighter leading-none">
+                DATA IS <br><span class="gradient-text">BLEEDING.</span>
+            </h1>
+            <p class="text-xl md:text-3xl max-w-3xl mx-auto text-zinc-500 font-light italic">
+                Enterprises lose 30% of their annual value to fragmentation. <br>
+                We stop the leak. 48 hours to total reconstruction.
+            </p>
+        </div>
+        <div class="mt-16 glass p-2 rounded-full w-full max-w-xl">
+            <form action="https://formspree.io/f/xjgevkyo" method="POST" class="flex flex-col sm:flex-row gap-2">
+                <input type="email" name="email" required placeholder="REGISTER CORPORATE EMAIL" 
+                    class="bg-transparent border-none text-white px-10 py-5 flex-1 focus:ring-0 placeholder:text-zinc-800 text-sm font-bold tracking-widest">
+                <button type="submit" class="bg-white text-black px-12 py-5 rounded-full font-black text-xs uppercase tracking-[0.2em] hover:bg-red-600 hover:text-white transition-all transform active:scale-95">
+                    INITIATE
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer class="relative z-10 py-24 text-center">
+        <div class="h-[1px] w-32 bg-gradient-to-r from-transparent via-zinc-800 to-transparent mx-auto mb-10"></div>
+        <p class="text-[9px] uppercase tracking-[1em] text-zinc-800 font-bold">
+            &copy; 2026 MrKolapie Pty Ltd • South African Intelligence • Global Secure Protocol
+        </p>
+    </footer>
+</body>
+</html>
+### SYSTEM INITIALIZED. EVOLUTION PROTOCOL ENGAGED. AWAITING DATA. ###
