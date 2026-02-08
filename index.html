@@ -23,11 +23,6 @@
             0% { transform: scale(1); opacity: 1; }
             100% { transform: scale(1.5); opacity: 0; }
         }
-        .contact-hover:hover {
-            color: #ef4444;
-            letter-spacing: 0.1em;
-            transition: all 0.3s ease;
-        }
     </style>
 </head>
 <body class="bg-[#050505] text-zinc-400 selection:bg-indigo-500/30 overflow-x-hidden">
@@ -46,17 +41,17 @@
         <div class="hidden lg:flex items-center space-x-10 text-[10px] uppercase tracking-[0.3em] font-bold text-zinc-600">
             <span class="flex items-center gap-2">
                 <span class="w-2 h-2 bg-green-500 rounded-full sentinel-pulse"></span>
-                <span class="text-white">Sentinel Online</span>
+                <span class="text-white">Sentinel Engine Live</span>
             </span>
-            <a href="tel:+27627947136" class="hover:text-white transition-colors">+27 62 794 7136</a>
+            <a href="tel:+27627947136" class="hover:text-white transition-colors tracking-[0.5em]">+27 62 794 7136</a>
             <div class="flex gap-4">
                 <a href="mailto:sales@mrkolapie.com" class="text-white hover:text-red-500 transition-all border-b border-white/10 pb-1">sales@mrkolapie.com</a>
-                <a href="mailto:zahidkola@mrkolapie.com" class="text-white hover:text-blue-500 transition-all border-b border-white/10 pb-1">zahidkola@mrkolapie.com</a>
+                <a href="mailto:zahidkola@mrkolapie.com" class="text-white hover:text-blue-500 transition-all border-b border-white/10 pb-1">Executive Portal</a>
             </div>
         </div>
     </nav>
 
-    <main class="relative z-10 min-h-[70vh] flex flex-col justify-center items-center px-6 text-center">
+    <main class="relative z-10 min-h-[60vh] flex flex-col justify-center items-center px-6 text-center pt-20">
         <div class="max-w-6xl space-y-12">
             <h1 class="text-6xl md:text-[9.5rem] font-black text-white tracking-tighter leading-[0.8]">
                 RECONSTRUCT <br> 
@@ -64,56 +59,74 @@
             </h1>
 
             <p class="text-xl md:text-3xl max-w-4xl mx-auto font-light leading-relaxed text-zinc-500">
-                Deployment of autonomous reconstruction layers for <span class="text-white font-semibold">MrKolapie Pty Ltd</span> global infrastructure.
+                Deploying autonomous reconstruction layers for <span class="text-white font-semibold">MrKolapie Pty Ltd</span> digital identity orchestration.
             </p>
 
-            <div class="glass border border-white/10 p-2 rounded-[2rem] max-w-xl mx-auto shadow-[0_0_50px_rgba(0,0,0,0.5)]">
-                <form action="https://formspree.io/f/xjgevkyo" method="POST" class="flex flex-col sm:flex-row gap-2">
-                    <input 
-                        type="email" name="email" required 
-                        placeholder="Corporate Interest Bridge" 
-                        class="bg-transparent border-none text-white px-10 py-6 flex-1 focus:ring-0 placeholder:text-zinc-700 text-base"
-                    >
-                    <button type="submit" class="bg-white text-black px-12 py-6 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-red-600 hover:text-white transition-all active:scale-95">
-                        Initiate
-                    </button>
+            <div class="glass border border-white/10 p-8 rounded-[2rem] max-w-2xl mx-auto shadow-[0_0_50px_rgba(0,0,0,0.5)]">
+                <h3 class="text-white text-sm uppercase tracking-[0.3em] mb-6 opacity-50">Protocol 01: Intelligent Ingestion</h3>
+                <form action="https://formspree.io/f/xjgevkyo" method="POST" class="flex flex-col gap-4">
+                    
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <input 
+                            type="text" name="company_name" required 
+                            placeholder="Company / Entity Name" 
+                            class="bg-white/5 border border-white/10 text-white px-6 py-4 rounded-xl flex-1 focus:ring-1 focus:ring-red-500 outline-none placeholder:text-zinc-700"
+                        >
+                        <input 
+                            type="email" name="email" required 
+                            placeholder="Corporate Email" 
+                            class="bg-white/5 border border-white/10 text-white px-6 py-4 rounded-xl flex-1 focus:ring-1 focus:ring-blue-500 outline-none placeholder:text-zinc-700"
+                        >
+                    </div>
+
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <input 
+                            type="number" name="data_rows" required 
+                            placeholder="Rows for Reconstruction (e.g. 5000)" 
+                            class="bg-white/5 border border-white/10 text-white px-6 py-4 rounded-xl flex-1 focus:ring-1 focus:ring-green-500 outline-none placeholder:text-zinc-700"
+                        >
+                        <button type="submit" class="bg-white text-black px-10 py-4 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-red-600 hover:text-white transition-all active:scale-95 shadow-2xl">
+                            Authorize & Invoice
+                        </button>
+                    </div>
+                    
+                    <p class="text-[9px] text-zinc-600 mt-2 uppercase tracking-widest text-left">
+                        * Authorizing triggers immediate Sentinel resource allocation and proforma billing protocols.
+                    </p>
                 </form>
             </div>
         </div>
     </main>
 
-    <section class="relative z-10 max-w-7xl mx-auto py-20 px-6 grid md:grid-cols-2 gap-10">
-        <div class="glass border border-white/5 p-12 rounded-3xl space-y-6">
-            <h3 class="text-white text-2xl font-bold">Secure Communication</h3>
-            <div class="space-y-4">
-                <div class="flex flex-col">
-                    <span class="text-[10px] uppercase tracking-widest text-zinc-600">Global Primary</span>
-                    <a href="tel:+27627947136" class="text-2xl text-white font-black hover:text-red-500 transition-all">+27 62 794 7136</a>
-                </div>
-                <div class="flex flex-col">
-                    <span class="text-[10px] uppercase tracking-widest text-zinc-600">Executive Protocol</span>
-                    <a href="mailto:zahidkola@mrkolapie.com" class="text-xl text-white font-bold hover:text-blue-500 transition-all">zahidkola@mrkolapie.com</a>
-                </div>
-            </div>
+    <section class="relative z-10 max-w-7xl mx-auto py-40 px-6 grid md:grid-cols-3 gap-16">
+        <div class="space-y-8 group">
+            <div class="w-12 h-[1px] bg-red-500 group-hover:w-24 transition-all duration-500"></div>
+            <h3 class="text-white text-3xl font-bold tracking-tight leading-none">Autonomous <br>Reconstruction</h3>
+            <p class="text-base leading-relaxed text-zinc-500">We deploy intelligence layers that identify and repair structural fragmentation across your entire stack on the 16GB RAM overhead.</p>
         </div>
-        <div class="glass border border-white/5 p-12 rounded-3xl space-y-6">
-            <h3 class="text-white text-2xl font-bold">Intelligence Feed</h3>
-            <p class="text-sm leading-relaxed">System architecture running on <span class="text-white">PortableSSD (D:)</span> with 16GB RAM overhead. Sentinel 5.4GB model is currently processing data reconstruction cycles.</p>
-            <div class="flex gap-2">
-                <span class="px-3 py-1 bg-white/5 rounded-full text-[9px] text-zinc-400">LF/CRLF COMPLIANT</span>
-                <span class="px-3 py-1 bg-white/5 rounded-full text-[9px] text-zinc-400">ZERO-TRUST</span>
-            </div>
+
+        <div class="space-y-8 group text-center md:text-left">
+            <div class="w-12 h-[1px] bg-green-500 group-hover:w-24 transition-all duration-500 mx-auto md:mx-0"></div>
+            <h3 class="text-white text-3xl font-bold tracking-tight leading-none">Sentinel <br>Intelligence</h3>
+            <p class="text-base leading-relaxed text-zinc-500">Revealing revenue nodes lost to data friction through 5.4GB model precision modeling and zero-trust SSD architecture.</p>
+        </div>
+
+        <div class="space-y-8 group text-right">
+            <div class="w-12 h-[1px] bg-purple-500 group-hover:w-24 transition-all duration-500 ml-auto"></div>
+            <h3 class="text-white text-3xl font-bold tracking-tight leading-none">Global <br>Precision</h3>
+            <p class="text-base leading-relaxed text-zinc-500 italic">Engineered in South Africa. We build internal systems that allow you to own your value without external dependency [cite: 2026-02-07].</p>
         </div>
     </section>
 
-    <footer class="relative z-10 py-20 border-t border-white/5 text-center bg-black/20">
+    <footer class="relative z-10 py-32 border-t border-white/5 text-center bg-black/20">
         <div class="max-w-4xl mx-auto space-y-8">
             <p class="text-[10px] uppercase tracking-[1em] text-zinc-800 font-bold">
-                &copy; 2026 MrKolapie Pty Ltd • Distributed Intelligence
+                &copy; 2026 MrKolapie Pty Ltd • 33rd Protocol • Distributed Intelligence
             </p>
             <div class="flex justify-center space-x-6 text-[9px] uppercase tracking-widest text-zinc-700">
+                <span>Non-Disclosure Compliant</span>
+                <span>Zero-Trust Architecture</span>
                 <a href="mailto:sales@mrkolapie.com" class="hover:text-white transition-colors">sales@mrkolapie.com</a>
-                <span>South Africa</span>
             </div>
         </div>
     </footer>
